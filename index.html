@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Library</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>E-Library</h1>
+    <form action="">
+        <fieldset>
+           <legend><h2>Users Details</h2></legend>
+           <div class="input"><h4> User Name:</h4><input type="text" name="" id="name" placeholder="Write Users Name Here.."></div>
+           <div class="input"><h4>User Mobile No.:</h4><input type="number" name="" id="mobNo" placeholder="Enter 10 Digit Mobile No."></div>
+           <div class="input"><h4>Count Of Books:</h4><input type="number" name="" id="bookNo" placeholder="Numbers of books..."></div>
+           <div class="input"><h4>Name Of  Books:</h4><input type="text" name="" id="bookName" placeholder="Details of books"></div>
+           <div class="input"><h4> Given Serial No :</h4><input type="number" name="" id="serialNo" placeholder="Enter Uniq Book No..."></div>
+       <div class="buttons">    
+            <button class="submit" >submit</button>
+        <button class="reset">Reset</button> <br>
+        <p class="msg"></p>
+    </div>
+</fieldset>
+</form>
+
+   
+        <legend><h2>List of all Users</h2></legend>
+        <table id="table" border="2">
+            <thead>
+                
+                   <th> Sr. No.</th>
+                    <th> Name</th>
+                    <th>Mobile No.</th>
+                    <th>No. of books</th>
+                    <th>Books Name</th>
+                    <th>Serial No.</th>
+                    <th>Action</th>
+                
+            </thead>
+            <tbody>
+                <tr></tr>
+            </tbody>
+        </table>
+   
+
+       
+
+    <script src="./main.js"></script>
+</body>
+</html>
